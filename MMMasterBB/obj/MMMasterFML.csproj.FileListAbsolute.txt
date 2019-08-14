@@ -1,0 +1,7 @@
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\bin\Debug\MMMasterFML.dll
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\bin\Debug\MMMasterFML.pdb
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\bin\Debug\MMLib.dll
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\bin\Debug\MMLib.pdb
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\obj\Debug\ResolveAssemblyReference.cache
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\obj\Debug\MMMasterFML.dll
+C:\SportsMEDIA\Dev\Gemini\MasterMindSharp\Students\Template\MMMasterFML\obj\Debug\MMMasterFML.pdb

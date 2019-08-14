@@ -1,0 +1,9 @@
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\bin\Debug\MMMasterBB.dll
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\bin\Debug\MMMasterBB.pdb
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\bin\Debug\MMLib.dll
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\bin\Debug\MMLib.pdb
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\obj\Debug\MMMasterBB.csprojAssemblyReference.cache
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\obj\Debug\MMMasterBB.csproj.CoreCompileInputs.cache
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\obj\Debug\MMMasterBB.csproj.CopyComplete
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\obj\Debug\MMMasterBB.dll
+C:\Users\theba\mastermind\MasterMind\Mastermind\Students\BB\MMMasterBB\obj\Debug\MMMasterBB.pdb
