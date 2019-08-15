@@ -54,6 +54,8 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
         bool createSolutionCalled = false;
         // empty string to set the solutions too
         string solutions;
+        string userGuess;
+        string userFeedBack;
         ArrayList userGuesses = new ArrayList();
         ArrayList guessFeedbackArray = new ArrayList();
         int whatTurn = 0;
@@ -220,7 +222,10 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
 
             string ret = "ERROR";
             
-
+            if(whatTurn > 1 && Turn >0)
+            {
+                ret = userFeedBack;
+            }
 
             return ret;
         }
@@ -404,6 +409,12 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
         public bool SetFeedbackMode(string Mode)
         {
             bool ret = false;
+            Mode = "Difficult";
+
+            if(whatTurn == 0)
+            {
+                ret = true;
+            }
 
             return ret;
         }
@@ -441,6 +452,7 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
             // if a valid turn has been taken and the method createSolution has been called
             if (Turn <= 16 && Turn >= 1 && createSolutionCalled && whatTurn == Turn)
             {
+                userGuess = GuessPattern;
                 string[] copyGuessPattern = GuessPattern.Split('|');
                 string[] solutionArray = solutions.Split('|');
                 bool colorsValid = true;
@@ -492,6 +504,7 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
                     for (int i = 0; i < (solutionArray.Length - blackCount - whiteCount); i++)
                     {
                         ret = ret + "None";
+                        userFeedBack = ret;
                     }
                 }
                 
@@ -519,10 +532,10 @@ namespace SportsMEDIA.Gemini.MasterMindSharp.BB
         /// ---------------------------------------------------------------------
         public string SuggestGuess()
         {//have a counter of how many times a color has been guessed
-           //sugggest the least guessed color
-           // if there is a tie suggest at random
 
             string ret = "ERROR";
+
+
 
             return ret;
         }
